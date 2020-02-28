@@ -1,5 +1,6 @@
 # laravel-php-fpm
 
+```
 version: "3"
 services:
   php:
@@ -15,3 +16,4 @@ services:
     volumes:
       - ./:/var/www
       - ./nginx.conf:/etc/nginx/conf.d/default.conf
+```
